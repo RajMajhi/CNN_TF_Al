@@ -31,6 +31,23 @@
 
 So, in this particular Colab/T4 test, YOLO11n is about 3.2× faster than RT-DETR-L.
 
-
+COCO validation
+     │
+     ├───────────────┐
+     │               │
+     ▼               ▼
+ YOLO11n          RT-DETR-L
+     │               │
+     ▼               ▼
+ predictions      predictions
+     │               │
+     └───────┬───────┘
+             ▼
+       COCO ground truth
+             │
+             ▼
+       ┌─────┼─────┐
+       ▼     ▼     ▼
+      mAP  Precision Recall
 
 ```
