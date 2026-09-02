@@ -50,4 +50,34 @@ COCO validation
        ▼     ▼     ▼
       mAP  Precision Recall
 
+1. Install Ultralytics
+        ↓
+2. Check GPU
+        ↓
+3. Import YOLO + RTDETR
+        ↓
+4. Load YOLO11n + RT-DETR-L
+        ↓
+5. Download/extract COCO
+        ↓
+6. Load COCO annotations
+        ↓
+7. Define JetAuto 15 classes
+        ↓
+8. Create JetAuto validation labels
+        ↓
+9. Create JetAuto training labels
+        ↓
+10. Create dataset YAML
+        ↓
+11. Fine-tune YOLO11n
+        ↓
+12. Fine-tune RT-DETR-L
+        ↓
+13. Evaluate both
+        ↓
+14. FPS / latency / memory
+        ↓
+15. Test on your own JetAuto video
+
 ```
